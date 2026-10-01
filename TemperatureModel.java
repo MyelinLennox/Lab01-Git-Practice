@@ -5,4 +5,13 @@ public class TemperatureModel {
         this.celsiusTemp = celsiusTemp
     }
 
+    public double getCelsiusTemp() {
+        return celsiusTemp;
+    }
+
+    public void setCelsiusTemp(double celsiusTemp) {
+        this.celsiusTemp = celsiusTemp;
+    }
+
+
 }
