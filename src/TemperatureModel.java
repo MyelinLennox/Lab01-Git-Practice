@@ -1,8 +1,8 @@
 public class TemperatureModel {
-    private double celsiusTemp
+    private double celsiusTemp;
 
-    public TeperatureModel(double celsiusTemp) {
-        this.celsiusTemp = celsiusTemp
+    public TemperatureModel(double celsiusTemp) {
+        this.celsiusTemp = celsiusTemp;
     }
 
     public double getCelsiusTemp() {
@@ -14,6 +14,6 @@ public class TemperatureModel {
     }
 
     public double getTempInFahrenheit() {
-        return celsiusTemp * 9/5 + 32
+        return celsiusTemp * 9/5 + 32;
     }
 }
