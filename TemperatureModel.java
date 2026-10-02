@@ -13,5 +13,7 @@ public class TemperatureModel {
         this.celsiusTemp = celsiusTemp;
     }
 
-
+    public double getTempInFahrenheit() {
+        return celsiusTemp * 9/5 + 32
+    }
 }
